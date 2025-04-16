@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Web Development - My Blog</title>
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -13,19 +13,19 @@
             <div class="nav-container">
                 <h1>My Blog</h1>
                 <ul class="main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="categories-nav">
             <div class="categories-container">
                 <ul>
-                    <li><a href="categories/technology.html">Technology</a></li>
-                    <li><a href="categories/web-development.html">Web Development</a></li>
-                    <li><a href="categories/design.html">Design</a></li>
-                    <li><a href="categories/tutorials.html">Tutorials</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="web-development.html" class="active">Web Development</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="tutorials.html">Tutorials</a></li>
                 </ul>
             </div>
         </div>
@@ -33,23 +33,13 @@
 
     <main>
         <section class="blog-posts">
-            <article class="post">
-                <h2>Welcome to My Blog</h2>
-                <div class="post-meta">
-                    <span class="date">March 21, 2024</span>
-                    <span class="author">By Admin</span>
-                    <span class="category"><a href="categories/technology.html">Technology</a></span>
-                </div>
-                <p>Welcome to my blog! This is a sample post to get you started. Feel free to modify this content and add your own blog posts.</p>
-                <a href="#" class="read-more">Read More</a>
-            </article>
-
+            <h2 class="category-title">Web Development Posts</h2>
             <article class="post">
                 <h2>Getting Started with Web Development</h2>
                 <div class="post-meta">
                     <span class="date">March 20, 2024</span>
                     <span class="author">By Admin</span>
-                    <span class="category"><a href="categories/web-development.html">Web Development</a></span>
+                    <span class="category"><a href="web-development.html">Web Development</a></span>
                 </div>
                 <p>Web development is an exciting field that combines creativity with technical skills. In this post, we'll explore the basics of getting started.</p>
                 <a href="#" class="read-more">Read More</a>
@@ -75,6 +65,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html> 
